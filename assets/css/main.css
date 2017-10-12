@@ -1125,58 +1125,58 @@
   			position: absolute;
   			width: 100%;
   			height: 100%;
-  			-webkit-filter: blur(2px);
-  			-moz-filter: blur(2px);
-  			-o-filter: blur(2px);
-  			-ms-filter: blur(2px);
-  			filter: blur(2px);
+  			-webkit-filter: blur(1px);
+  			-moz-filter: blur(1px);
+  			-o-filter: blur(1px);
+  			-ms-filter: blur(1px);
+  			filter: blur(1px);
 		}
 
 		.slide1 {
-  			background: url(http://images.unsplash.com/photo-1489513691500-41ef4acdb665)no-repeat center;
+  			background: url(../../images/image01.jpg)no-repeat center;
       		background-size: cover;
-    		-webkit-animation: slideshow 20s linear 0s infinite;
-    		-moz-animation: slideshow 20s linear 0s infinite;
-    		-ms-animation: slideshow 20s linear 0s infinite;
-    		-o-animation: slideshow 20s linear 0s infinite;
-    		animation: slideshow 20s linear 0s infinite;
+    		-webkit-animation: slideshow 30s ease-in-out 0s infinite;
+    		-moz-animation: slideshow 30s ease-in-out 0s infinite;
+    		-ms-animation: slideshow 30s ease-in-out 0s infinite;
+    		-o-animation: slideshow 30s ease-in-out 0s infinite;
+    		animation: slideshow 30s ease-in-out 0s infinite;
 		}
 
 		.slide2 {
-  			background: url(https://images.unsplash.com/photo-1484999520879-dd526c7fa805)no-repeat center;
+  			background: url(../../images/image02.jpg)no-repeat center;
       		background-size: cover;
-    		-webkit-animation: slideshow 20s linear 4s infinite;
-    		-moz-animation: slideshow 20s linear 4s infinite;
-    		-ms-animation: slideshow 20s linear 4s infinite;
-    		-o-animation: slideshow 20s linear 4s infinite;
-    		animation: slideshow 20s linear 4s infinite;
+    		-webkit-animation: slideshow 30s ease-in-out 6s infinite;
+    		-moz-animation: slideshow 30s ease-in-out 6s infinite;
+    		-ms-animation: slideshow 30s ease-in-out 6s infinite;
+    		-o-animation: slideshow 30s ease-in-out 6s infinite;
+    		animation: slideshow 30s ease-in-out 6s infinite;
 		}
 		.slide3 {
-  			background: url(https://images.unsplash.com/photo-1446475329963-e1013c85391b)no-repeat center;
+  			background: url(../../images/image03.jpg)no-repeat center;
       		background-size: cover;
-    		-webkit-animation: slideshow 20s linear 8s infinite;
-    		-moz-animation: slideshow 20s linear 8s infinite;
-    		-ms-animation: slideshow 20s linear 8s infinite;
-    		-o-animation: slideshow 20s linear 8s infinite;
-    		animation: slideshow 20s linear 8s infinite;
+    		-webkit-animation: slideshow 30s ease-in-out 12s infinite;
+    		-moz-animation: slideshow 30s ease-in-out 12s infinite;
+    		-ms-animation: slideshow 30s ease-in-out 12s infinite;
+    		-o-animation: slideshow 30s ease-in-out 12s infinite;
+    		animation: slideshow 30s ease-in-out 12s infinite;
 		}
 		.slide4 {
-  			background: url(https://images.unsplash.com/photo-1496134732667-ae8d2853a045)no-repeat center;
+  			background: url(../../images/image04.jpg)no-repeat center;
       		background-size: cover;
-    		-webkit-animation: slideshow 20s linear 12s infinite;
-    		-moz-animation: slideshow 20s linear 12s infinite;
-    		-ms-animation: slideshow 20s linear 12s infinite;
-    		-o-animation: slideshow 20s linear 12s infinite;
-    		animation: slideshow 20s linear 12s infinite;
+    		-webkit-animation: slideshow 30s ease-in-out 18s infinite;
+    		-moz-animation: slideshow 30s ease-in-out 18s infinite;
+    		-ms-animation: slideshow 30s ease-in-out 18s infinite;
+    		-o-animation: slideshow 30s ease-in-out 18s infinite;
+    		animation: slideshow 30s ease-in-out 18s infinite;
 		}
 		.slide5 {
-  			background: url(https://images.unsplash.com/photo-1424384309529-4f05c2349657)no-repeat center;
+  			background: url(../../images/image05.jpg)no-repeat center;
       		background-size: cover;
-    	    -webkit-animation: slideshow 20s linear 16s infinite;
-    		-moz-animation: slideshow 20s linear 16s infinite;
-    		-ms-animation: slideshow 20s linear 16s infinite;
-    		-o-animation: slideshow 20s linear 16s infinite;
-    		animation: slideshow 20s linear 16s infinite;
+    	    -webkit-animation: slideshow 30s ease-in-out 24s infinite;
+    		-moz-animation: slideshow 30s ease-in-out 24s infinite;
+    		-ms-animation: slideshow 30s ease-in-out 24s infinite;
+    		-o-animation: slideshow 30s ease-in-out 24s infinite;
+    		animation: slideshow 30s ease-in-out 24s infinite;
 		}
 
 		@-webkit-keyframes slideshow {
@@ -1340,6 +1340,13 @@
 
 			#header .logo .icon:before {
 				font-size: 2rem;
+			}
+
+			#header .logo .brand {
+				width:110%;
+				height:100%;
+				margin-top: -2%;
+				margin-left: -3%;
 			}
 
 		#header .content {
