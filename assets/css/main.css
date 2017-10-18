@@ -56,6 +56,18 @@
 		box-sizing: border-box;
 	}
 
+/* Loader */
+
+	.loader {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9;
+		background: url('../../images/loader.gif') 50% 50% no-repeat rgb(16,16,16);
+	}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -952,6 +964,11 @@
 
 /* Button */
 
+	#ticket {
+		position: fixed;
+		right: 2%;
+	}
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -1027,6 +1044,10 @@
 			background-color: #ffffff;
 			color: #1b1f22 !important;
 			font-weight: 600;
+		}
+
+		.button.special:hover {
+			background-color: #dddddd;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
