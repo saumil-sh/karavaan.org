@@ -65,7 +65,12 @@
 		width: 100%;
 		height: 100%;
 		z-index: 9;
-		background: url('../../images/loader.gif') 50% 50% no-repeat rgb(16,16,16);
+		background: url('../../images/loader.gif') 50% 50% no-repeat rgb(0,0,0);
+	}
+
+	#ticket {
+		position: fixed;
+		left: 2%;
 	}
 
 /* Basic */
@@ -964,11 +969,6 @@
 
 /* Button */
 
-	#ticket {
-		position: fixed;
-		left: 2%;
-	}
-
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -1532,7 +1532,7 @@
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 1.5rem 0;
+				padding: 5rem 0;
 			}
 
 				#header .content .inner {
