@@ -966,7 +966,7 @@
 
 	#ticket {
 		position: fixed;
-		right: 2%;
+		left: 2%;
 	}
 
 	input[type="submit"],
