@@ -73,6 +73,13 @@
 		left: 2%;
 	}
 
+	@media screen and (max-width: 736px) {
+
+			#ticket {
+				left: auto;
+			}
+		}
+
 /* Basic */
 
 	@-ms-viewport {
