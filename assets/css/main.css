@@ -68,18 +68,6 @@
 		background: url('../../images/loader.gif') 50% 50% no-repeat rgb(0,0,0);
 	}
 
-	#ticket {
-		position: fixed;
-		left: 2%;
-	}
-
-	@media screen and (max-width: 736px) {
-
-			#ticket {
-				left: auto;
-			}
-		}
-
 /* Basic */
 
 	@-ms-viewport {
@@ -874,7 +862,6 @@
 						}
 
 						ul.actions li > * {
-							width: 100%;
 							margin: 0 !important;
 						}
 
@@ -1500,7 +1487,7 @@
 		@media screen and (max-width: 980px) {
 
 			#header .content p br {
-				display: none;
+				display: initial;
 			}
 
 		}
