@@ -1068,6 +1068,11 @@
 		line-height: calc(2.75rem - 2px);
 	}
 
+	.buttonalign{
+			width:100%;
+			text-align: center;
+	}
+
 /* BG */
 
 	#bg {
