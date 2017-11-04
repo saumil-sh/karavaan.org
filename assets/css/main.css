@@ -1727,3 +1727,16 @@
 		body.is-loading #footer {
 			opacity: 0;
 		}
+
+.schedulepara {
+			width:100%;
+			text-align:center;
+		}
+
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(2.1);
+}
